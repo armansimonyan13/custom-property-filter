@@ -15,6 +15,7 @@ import java.util.Set;
 
 import static com.jayway.jsonpath.matchers.JsonPathMatchers.*;
 import static org.hamcrest.Matchers.*;
+import static org.junit.Assert.*;
 
 public class CustomBeanPropertyFilterTest {
 
