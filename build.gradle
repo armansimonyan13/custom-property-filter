@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'filter'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("com.fasterxml.jackson.core:jackson-databind:2.9.9")
+
+    testCompile("junit:junit:4.12")
+    testCompile("com.jayway.jsonpath:json-path-assert:2.2.0")
+}
