@@ -1,5 +1,8 @@
 package com.armansimonyan.filter;
 
+import com.armansimonyan.filter.data.Child;
+import com.armansimonyan.filter.data.GrandChild;
+import com.armansimonyan.filter.data.Parent;
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
@@ -11,7 +14,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 import static com.jayway.jsonpath.matchers.JsonPathMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
 public class CustomBeanPropertyFilterTest {

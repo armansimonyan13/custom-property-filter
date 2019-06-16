@@ -1,4 +1,4 @@
-package com.armansimonyan.filter;
+package com.armansimonyan.filter.data;
 
 public class GrandChild {
 
